@@ -1,0 +1,156 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+.Pdc {
+    display: flex;
+    justify-content: center;
+    margin: 200px auto 0 auto;
+    gap: 5em;
+
+
+}
+
+/* product 1  */
+.pd1 {
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    background-color: rgba(11, 11, 11, 0.858);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 20px 20px;
+    margin-top: 50px;
+}
+
+#pd1-imge {
+    width: 400px;
+    height: 300px;
+
+
+}
+
+.pd1-head {
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: white;
+}
+
+.pd1-subhead {
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(42, 183, 238);
+
+}
+
+.pd1-para {
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+
+
+/* product 2  */
+
+.pd2 {
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    background-color: rgba(11, 11, 11, 0.858);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 20px 30px;
+}
+
+#pd2-imge {
+    width: 400px;
+    height: 300px;
+
+}
+
+.pd2-head {
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: white;
+}
+
+.pd2-subhead {
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(42, 183, 238);
+
+}
+
+.pd2-para {
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+/* product 3 */
+
+
+.pd3 {
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    background-color: rgba(11, 11, 11, 0.858);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 20px 20px;
+    margin-top: 50px;
+}
+
+#pd3-imge {
+    width: 400px;
+    height: 300px;
+
+}
+
+.pd3-head {
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: white;
+}
+
+.pd3-subhead {
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(42, 183, 238);
+
+}
+
+.pd3-para {
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+/* hover effect */
+.pd1:hover,
+.pd2:hover,
+.pd3:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+    transition-delay: .1s;
+    background-color: rgb(0, 0, 0);
+}
