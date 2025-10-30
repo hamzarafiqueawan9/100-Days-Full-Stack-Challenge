@@ -17,6 +17,7 @@ body {
     justify-content: center;
     margin: 200px auto 0 auto;
     gap: 5em;
+    flex-wrap: wrap;
 
 
 }
@@ -25,7 +26,9 @@ body {
 .pd1 {
     text-align: center;
     border: 1px solid black;
-    width: 400px;
+    max-width: 400px;
+    min-width: 250px;
+    width: 100%;
     height: 550px;
     background-color: rgba(11, 11, 11, 0.858);
     border-radius: 20px;
@@ -69,12 +72,15 @@ body {
 .pd2 {
     text-align: center;
     border: 1px solid black;
-    width: 400px;
+    max-width: 400px;
+    min-width: 250px;
     height: 550px;
+    width: 100%;
     background-color: rgba(11, 11, 11, 0.858);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 10px 20px 30px;
+
 }
 
 #pd2-imge {
@@ -87,6 +93,8 @@ body {
     font-family: sans-serif;
     margin-top: 30px;
     color: white;
+
+
 }
 
 .pd2-subhead {
@@ -110,7 +118,9 @@ body {
 .pd3 {
     text-align: center;
     border: 1px solid black;
-    width: 400px;
+    max-width: 400px;
+    min-width: 250px;
+    width: 100%;
     height: 550px;
     background-color: rgba(11, 11, 11, 0.858);
     border-radius: 20px;
@@ -153,4 +163,26 @@ body {
     transition: 1s ease-in-out;
     transition-delay: .1s;
     background-color: rgb(0, 0, 0);
+}
+
+@media (max-width:768px) {
+
+    .Pdc {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        gap: 3em;
+    }
+
+
+}
+
+@media (max-width:1359px) {
+
+
+    .pd2 {
+        margin-top: 50px;
+    }
+
+
 }
