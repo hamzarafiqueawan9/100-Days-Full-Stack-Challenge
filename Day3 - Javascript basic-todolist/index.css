@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(75, 116, 212);
+}
+
+.todo-app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 600px;
+    border-radius: 10px;
+    margin: 100px auto 0px auto;
+    gap: 2rem;
+    background-color: rgb(29, 26, 26);
+}
+
+.input-panel {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+#displ {
+    height: 50px;
+    width: 400px;
+    margin-top: 0px;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#add-btn {
+    width: 80px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    margin-left: 40px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(107, 106, 120);
+    transition: all 0.5s ease-in-out;
+}
+
+
+#add-btn:hover {
+    transform: scale(1.2);
+    background-color: rgb(105, 105, 228);
+    color: white;
+
+}
+
+ul {
+    margin-top: 10px;
+    max-width: 500px;
+    margin: 0px auto 0px auto;
+
+}
+
+
+ul>li {
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+    list-style: none;
+    font-size: 30px;
+    background-color: rgb(48, 169, 234);
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+
+}
+
